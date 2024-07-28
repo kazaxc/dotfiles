@@ -1,15 +1,15 @@
 # Dotfiles
 
-Dotfiles for my Arch Linux install
+Dotfiles for my Arch Linux install and a simple guide on how to use and install them.
 
-Features:
+**Features:**
   - Terminal - Kitty
   - Shell - Bash
   - Window Manager - DWM
-  - Wallpaper - Feh
-  - Visualiser - Cava
+  - Wallpaper Display- Feh
+  - Audio Visualiser - Cava
 
-Guide:
+## Guide:
   First you need to edit '.xinitrc' to change xrandr to the settings that best suit your monitor and
   if you wish to use a different wallpaper edit line 2 so that feh loads your desired wallpaper file.
   
@@ -23,4 +23,6 @@ Guide:
   
   Finally run 'sudo make clean install' in each of the suckless projects 'dmenu', 'dwm',
   'slstatus' and 'st'.
+
+Wallpaper: https://whvn.cc/p97wgp
 
