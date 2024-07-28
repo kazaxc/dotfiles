@@ -21,7 +21,7 @@ Dotfiles for my Arch Linux install and a simple guide on how to use and install 
   
   Make sure to copy files prepended with '.' to the user's directory.
   
-  The directories 'cava' and 'kitty' must be installed to '~.config/' and 'picom.conf'
+  The directories 'cava', 'kitty' and 'fastfetch' must be installed to '~.config/' and 'picom.conf'
   in '/etc/xdg/'.
   
   Finally run 'sudo make clean install' in each of the suckless projects 'dmenu', 'dwm',
@@ -29,5 +29,6 @@ Dotfiles for my Arch Linux install and a simple guide on how to use and install 
 
 ### Credit:
 Suckless software: https://suckless.org/
+
 Wallpaper: https://whvn.cc/p97wgp
 
