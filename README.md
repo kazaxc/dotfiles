@@ -6,14 +6,18 @@ Dotfiles for my Arch Linux install and a simple guide on how to use and install 
   - Terminal - Kitty
   - Shell - Bash
   - Window Manager - DWM
-  - System info - Fastfetch
-  - Wallpaper Display- Feh
+  - System Info - Fastfetch
+  - Wallpaper Display - Feh
   - Audio Visualiser - Cava
 
 ![Screenshot of my dotfiles](Pictures/dotfiles.png)
 
 ## Guide:
-  First you need to edit '.xinitrc' to change xrandr to the settings that best suit your monitor and
+  To download the dotfiles `git clone https://github.com/kazaxc/dotfiles`
+
+  Make sure all dependencies are downloaded before continuing with the next steps.
+
+  Edit '.xinitrc' to change xrandr to the settings that best suit your monitor and
   if you wish to use a different wallpaper edit line 2 so that feh loads your desired wallpaper file.
   
   You can also remove line 3 as this changes the keyboard layout to the UK/GB layout or if using anything
